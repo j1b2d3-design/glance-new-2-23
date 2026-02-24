@@ -1,0 +1,80 @@
+🚀 Glance App - 快速开始指南
+================================
+
+📱 这是根据你的 PDF 设计文件创建的 React Native 应用
+
+✅ 已完成：
+- Expo React Native 项目结构
+- 登录界面（Sign In Screen）
+- TypeScript 支持
+- React Navigation 导航
+- 完整的样式设计
+
+📋 如何运行应用：
+
+方法 1：双击运行（最简单）
+--------------------------
+1. 双击 "install.bat" 安装依赖（首次运行）
+2. 双击 "start.bat" 启动应用
+3. 在手机上下载 "Expo Go" app
+4. 扫描终端中的二维码
+
+方法 2：命令行运行
+--------------------------
+1. 打开 PowerShell 或 CMD
+2. 进入项目目录：
+   cd "c:\Users\25684\Downloads\figma design\GlanceApp"
+3. 安装依赖：
+   npm install
+4. 启动应用：
+   npm start
+
+📱 在手机上查看：
+--------------------------
+1. 下载 Expo Go app：
+   - iOS: App Store 搜索 "Expo Go"
+   - Android: Google Play 搜索 "Expo Go"
+   
+2. 打开 Expo Go，扫描终端中的二维码
+
+3. 应用会自动加载！
+
+💻 在电脑上查看：
+--------------------------
+启动后按 'w' 键，在浏览器中打开
+
+📝 修改代码：
+--------------------------
+- 主界面代码：src/screens/SignInScreen.tsx
+- 修改后保存，应用会自动刷新
+- 可以修改颜色、文字、布局等
+
+🎨 设计说明：
+--------------------------
+此应用实现了 PDF 中的登录界面，包括：
+✓ "Sign in to personalize" 标题
+✓ Apple 登录按钮（黑色）
+✓ Google 登录按钮（白色边框）
+✓ 演示模式按钮
+✓ 隐私说明文字
+
+📚 更多信息：
+--------------------------
+- 详细文档：README.md
+- 安装指南：SETUP.md
+- 项目配置：package.json
+
+❓ 常见问题：
+--------------------------
+Q: 安装失败？
+A: 确保已安装 Node.js (https://nodejs.org/)
+
+Q: 无法连接手机？
+A: 确保手机和电脑在同一 WiFi 网络
+
+Q: 出现错误？
+A: 运行 "npx expo start -c" 清除缓存
+
+🎉 祝你使用愉快！
+
+有问题可以查看 SETUP.md 文件获取更多帮助。
